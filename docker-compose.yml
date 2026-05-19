@@ -20,7 +20,7 @@ services:
       # Secret para los microservicios
       - APP_GATEWAY_SECRET=3cfa76ef14937c1c0ea519f8fc057a80fcd04a7420f8e8bcd0a7567c272e007b
       # CORS
-      - CORS_ALLOWED_ORIGINS="*"
+      - CORS_ALLOWED_ORIGINS="https://nice-beach-000a6fe0f.7.azurestaticapps.net,http://localhost:5173,http://0.0.0.0:5173"
     restart: always
     env_file:
       - .env
